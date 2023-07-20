@@ -13,11 +13,11 @@ ardupilot App course work
 
 ## 事前準備
 requestsライブラリをインストール
-'$pip install requests'
+`$pip install requests`
 
 ## アプリケーション実行手順
 ### 1. SITL起動
 ### 2. アプリケーション起動
-'$python flight_log.py'
+`$python flight_log.py`
 ### 3. 任意にフライトさせる
 ### 4. フライトを終了すると自動的にログがcsvファイルに出力される
