@@ -14,7 +14,7 @@ ardupilot App course work
 ## 事前準備
 ### Pythonファイルを用意
 - flight_log.py →ログの取得・csvファイルへの出力
-- flight_location →座標から住所を出力
+- flight_location.py →座標から住所を出力
 ### requestsライブラリをインストール
 ```
 $pip install requests
