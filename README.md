@@ -12,12 +12,19 @@ ardupilot App course work
 - FLIGHT TIME: フライト時間
 
 ## 事前準備
-requestsライブラリをインストール
-`$pip install requests`
+### Pythonファイルを用意
+- flight_log.py →ログの取得・csvファイルへの出力
+- flight_location →座標から住所を出力
+### requestsライブラリをインストール
+```
+$pip install requests
+```
 
 ## アプリケーション実行手順
 ### 1. SITL起動
 ### 2. アプリケーション起動
-`$python flight_log.py`
+```
+$python flight_log.py
+```
 ### 3. 任意にフライトさせる
 ### 4. フライトを終了すると自動的にログがcsvファイルに出力される
